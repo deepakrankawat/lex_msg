@@ -179,3 +179,8 @@ docker-compose.override.yaml
 server/prev-report.xml
 server/prev-gotestsum.json
 server/shard-*.txt
+
+# Ignore backend directories for frontend-only deployment
+/server/
+/api/
+/tools/
